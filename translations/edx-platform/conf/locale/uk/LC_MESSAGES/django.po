@@ -3,25 +3,25 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-# 
+#
 # Translators:
 # Anastasiia Bondarenko <anastasiia.bondarenko@raccoongang.com>, 2025
 # larysa.yefimova, 2025
@@ -29,7 +29,7 @@
 # Arsen Turchanikov, 2025
 # Iryna Zaporozhets, 2025
 # Brian Smith, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -15420,3 +15420,129 @@ msgstr "Додайте текст Авторського Права сюди!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Редактор коду"
+
+
+#: payment emails common phrases - proanalytics-theme/lms/templates/course_payment/edx_ace/
+msgid "Hi there!"
+msgstr "Привіт!"
+
+msgid "If you have any questions, feel free to contact us at"
+msgstr "Якщо у тебе виникнуть будь-які питання, не соромся писати нам на"
+
+msgid "Your PROANALYTICS.ACADEMY Team"
+msgstr "Твоя команда PROANALYTICS.ACADEMY"
+
+#: payment success existing student email - proanalytics-theme/lms/templates/course_payment/edx_ace/paymentsuccessexistingstudent
+msgid "Thank you for staying with PROANALYTICS.ACADEMY! Your payment for the %(course_name)s course was successful"
+msgstr "Дякуємо, що залишаєшся з PROANALYTICS.ACADEMY! Оплата за курс %(course_name)s успішна."
+
+msgid "Your payment for the %(course_name)s course was successful. We appreciate your trust and look forward to continuing your journey into the world of analytics with us."
+msgstr "Твоя оплата за курс %(course_name)s успішна. Ми вдячні тобі за довіру та з нетерпінням чекаємо на продовження твоєї подорожі у світ аналітики разом з нами."
+
+msgid "As always, you can expect new knowledge, valuable skills, and a community of experts. We will send further instructions on accessing the course soon."
+msgstr "Як завжди, на тебе чекають нові знання, корисні навички та спільнота експертів. Незабаром ми надішлемо подальші інструкції для отримання доступу до курсу."
+
+#: payment success new student email - proanalytics-theme/lms/templates/course_payment/edx_ace/paymentsuccessnewstudent
+msgid "Welcome to PROANALYTICS.ACADEMY! Your payment for the %(course_name)s course was successful"
+msgstr "Ласкаво просимо до PROANALYTICS.ACADEMY! Оплата за курс %(course_name)s успішна."
+
+msgid "Your payment for the %(course_name)s course was successful, and we are excited to welcome you to the PROANALYTICS.ACADEMY community. Get ready to explore the fascinating world of analytics."
+msgstr "Твоя оплата за курс %(course_name)s успішна, і ми раді вітати тебе в ком'юніті PROANALYTICS.ACADEMY. Готуйся до захоплюючого вивчення всіх тонкощів аналітики."
+
+msgid "You are about to embark on a journey towards professional mastery, with exciting discoveries, valuable skills, and the chance to join a community of experts. We will send further instructions on accessing the course soon."
+msgstr "На шляху до професійної майстерності на тебе чекають цікаві відкриття, корисні навички та можливість долучитися до спільноти експертів. Незабаром ми надішлемо подальші інструкції для отримання доступу до курсу."
+
+#: payment failed email - proanalytics-theme/lms/templates/course_payment/edx_ace/paymentfailed
+msgid "Payment for the %(course_name)s Course Unsuccessful. What to Do Next?"
+msgstr "Оплата за курс %(course_name)s не вдалася. Що робити далі?"
+
+msgid "We noticed that your payment for the %(course_name)s course was unsuccessful."
+msgstr "Ми помітили, що твоя оплата за курс %(course_name)s не вдалася."
+
+msgid "This might be due to temporary technical issues or other circumstances. Please check your payment card details and try again."
+msgstr "Це могло статися через тимчасові технічні проблеми або інші обставини. Будь ласка, перевір дані своєї платіжної картки та спробуй ще раз."
+
+msgid "If the issue persists, contact us at"
+msgstr "Якщо проблема не зникає, зв'яжися з нами за адресою"
+
+msgid "We will assist you promptly to resolve this issue so you can start your course."
+msgstr "Ми швидко допоможемо вирішити це питання, щоб ти міг почати навчання."
+
+#: calendar - proanalytics-theme/lms/templates/dashboard/_calendar_box.html
+msgid "Calendar"
+msgstr "Календар"
+
+
+# New email templates:
+msgid "Forgot your password? Don't worry, we've got you covered! Password reset on PROANALYTICS.ACADEMY"
+msgstr "Забув пароль? Не хвилюйся, ми допоможемо! Зміна пароля на платформі PROANALYTICS.ACADEMY"
+
+msgid "We received your request to reset your password for PROANALYTICS.ACADEMY. To set a new password, click the button below:"
+msgstr "Ми отримали твій запит на зміну пароля на платформі PROANALYTICS.ACADEMY. Щоб встановити новий пароль, натисни кнопку нижче:"
+
+msgid "If you didn't request a password reset, just ignore this email — your password will remain unchanged."
+msgstr "Якщо ти не робив запит на зміну пароля, просто проігноруй цей лист — твій пароль залишиться без змін."
+
+msgid "If you have any questions or need assistance, reach out to us at proanalytics@analytics-tips.com. Best regards, Your PROANALYTICS.ACADEMY Team"
+msgstr "Якщо виникли питання або потрібна допомога, напиши нам на proanalytics@analytics-tips.com. З найкращими побажаннями, Твоя команда PROANALYTICS.ACADEMY"
+
+msgid "Just a few more steps! Use the link below to activate your account on PROANALYTICS.ACADEMY. Please note that you can log in only after activating your account."
+msgstr "Залишилось всього кілька кроків! Скористайся посиланням нижче для активації свого облікового запису в PROANALYTICS.ACADEMY. Зверни увагу, що ти зможеш увійти в свій акаунт тільки після його активації."
+
+msgid "Activate Account"
+msgstr "Активувати акаунт"
+
+msgid "If you have any questions or need assistance, reach out to us at"
+msgstr "Якщо виникли питання або потрібна допомога, напиши нам на"
+
+msgid "Try again"
+msgstr "Спробувати ще раз"
+
+msgid "This is your personal invitation from the PROANALYTICS.ACADEMY team to join the %(course_name)s course."
+msgstr "Це твоє персональне запрошення від команди PROANALYTICS.ACADEMY, щоб доєднатися до курсу %(course_name)s."
+
+msgid "To access the course materials, please complete the registration form using this email address: %(email_address)s"
+msgstr "Щоб отримати доступ до матеріалів, зареєструйся за допомогою цієї email-адреси: %(email_address)s"
+
+msgid "Complete Registration"
+msgstr "Завершити реєстрацію"
+
+
+msgid "After completing the registration, you will need to"
+msgstr "Після завершення реєстрації необхідно"
+
+
+msgid "activate your account through the email"
+msgstr "активувати акаунт через лист,"
+
+
+msgid "that will be sent to you."
+msgstr "який буде надіслано на твою електронну пошту."
+
+
+msgid "Only after activating your account will the %(course_name)s course appear in the Dashboard section."
+msgstr "Тільки після активації акаунта курс %(course_name)s з’явиться у розділі Дашборд."
+
+msgid "You are invited to the %(course_name)s course at PROANALYTICS.ACADEMY"
+msgstr "Тебе запрошено на курс %(course_name)s від PROANALYTICS.ACADEMY"
+
+
+msgid "You are enrolled in the %(course_name)s course at PROANALYTICS.ACADEMY"
+msgstr "Тебе зараховано на курс %(course_name)s від PROANALYTICS.ACADEMY"
+
+msgid "You have been successfully enrolled in the %(course_name)s course at PROANALYTICS.ACADEMY. You can access the %(course_name)s course in your account under the Dashboard section."
+msgstr "Тебе успішно зараховано на курс %(course_name)s від PROANALYTICS.ACADEMY. Ти можеш переглянути курс %(course_name)s у своєму акаунті в розділі Дашборд."
+
+msgid "View Course Materials"
+msgstr "Переглянути матеріали курсу"
+
+
+msgid "Action Required: Activate your account on PROANALYTICS.ACADEMY"
+msgstr "Завершення реєстрації: активуй свій акаунт в PROANALYTICS.ACADEMY"
+
+
+msgid "Password Successfully Reset on PROANALYTICS.ACADEMY"
+msgstr "Твій пароль успішно змінено на платформі PROANALYTICS.ACADEMY"
+
+msgid "Your password for your PROANALYTICS.ACADEMY account has been successfully changed. You can now log in to your account using the new password."
+msgstr "Твій пароль для облікового запису на PROANALYTICS.ACADEMY успішно змінено. Тепер ти можеш увійти в свій обліковий запис, використовуючи новий пароль."
