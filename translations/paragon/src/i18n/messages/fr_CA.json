@@ -94,7 +94,7 @@
     "string": "Filtres"
   },
   "pgn.DataTable.paginationLabel": {
-    "developer_comment": "",
+    "developer_comment": "Nom accessible pour l'élément de navigation d'un composant de pagination",
     "string": ""
   },
   "pgn.Dropzone.DefaultContent.fileSizeBetween": {
@@ -135,7 +135,7 @@
   },
   "pgn.Modal.closeButon": {
     "developer_comment": "",
-    "string": ""
+    "string": "fermer"
   },
   "pgn.ProductTour.Checkpoint.bottom-position-text": {
     "developer_comment": "Message du lecteur d'écran pour informer l'utilisateur qu'il se trouve au bas de l'étape de présentation du produit.",
@@ -150,8 +150,8 @@
     "string": "Haut de l'étape {step}"
   },
   "pgn.ProductTour.checkpointHeader.close": {
-    "developer_comment": "",
-    "string": ""
+    "developer_comment": "Fermer le texte alternatif pour le composant ProductTour",
+    "string": "Terminer la visite"
   },
   "pgn.Toast.closeLabel": {
     "developer_comment": "Close label for Toast component",

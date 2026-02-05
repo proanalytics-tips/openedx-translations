@@ -37,6 +37,7 @@
 	<string name="app.app_navigation_discovery">Keşfet</string>
 	<string name="app.app_navigation_learn">Öğren</string>
 	<string name="app.app_navigation_profile">Profil</string>
+	<string name="app.app_navigation_dates">Tarihler</string>
 	<string name="app.app_navigation_downloads">İndirmeler</string>
 
 	<string name="auth.auth_forgot_password">Parolanızı mı unuttunuz\?</string>
@@ -130,10 +131,16 @@
 	<string name="profile.profile_disable_calendar_dialog_title">Takvim Senkronizasyonunu Devre Dışı Bırak</string>
 	<string name="profile.profile_disable_calendar_dialog_description">Takvim senkronizasyonunun devre dışı bırakılması \"%1$s\" takvimini silecektir. Takvim senkronizasyonunu istediğiniz zaman tekrar açabilirsiniz.</string>
 	<string name="profile.profile_disable_syncing">Senkronizasyonu Devre Dışı Bırak</string>
+	<string name="profile.profile_deleting_events">Etkinlikler siliniyor, lütfen bekleyin…</string>
 	<string name="profile.profile_no_courses">%1$s Ders Yok</string>
 	<string name="profile.profile_no_sync_courses">Şu anda takviminizle senkronize edilen hiçbir ders yok.</string>
 	<string name="profile.profile_no_courses_with_current_filter">Geçerli filtreyle eşleşen ders yok.</string>
 	<string name="profile.profile_show_full_dates">“%1$s” gibi tam tarihleri göster</string>
+	<string name="profile.profile_select_google_calendar_title">Google Takvim\'i Seç</string>
+	<string name="profile.profile_change_google_calendar_title">Google Takvimini Değiştir</string>
+	<string name="profile.profile_no_google_calendars">Google takvimleri mevcut değil</string>
+	<string name="profile.profile_select_calendar">Takvim seç</string>
+	<string name="profile.profile_local_calendar_option">Yerel takvim</string>
 
 	<string name="core.core_error_invalid_grant">Geçersiz kimlik bilgileri</string>
 	<string name="core.core_error_no_connection">İnternet bağlantısı yok ya da yavaş</string>
@@ -353,6 +360,8 @@
 	<string name="course.course_of_grade">%1$s %% Notu</string>
 	<string name="course.course_review_grading_policy">Ders Notlandırma Politikasını İnceleyin</string>
 	<string name="course.course_return_to_course_home">Derse Dönüş</string>
+	<!-- Videos UI -->
+	<string name="course.course_continue_watching">İzlemeye Devam Et</string>
 	<string name="course.course_next_video">Sonraki Video</string>
 	<string name="course.course_view_all_videos">Tüm Videoları Görüntüle</string>
 	<string name="course.course_video_time_remaining">%1$s kaldı</string>
@@ -369,6 +378,17 @@
 	<string name="course.course_grades_title">Notlar</string>
 	<string name="course.course_grades_description">Bu, bu dersi geçmek için gereken nota karşı ağırlıklı notunuzu temsil eder.</string>
 	<string name="course.course_view_progress">İlerlemeni Görüntüle</string>
+	<!-- Caught Up Messages -->
+	<string name="course.course_videos_caught_up">Videoları izlemeyi tamamladınız!</string>
+	<string name="course.course_assignments_caught_up">Tüm görevlerde güncelsiniz!</string>
+
+	<string name="dates.dates_title">Tarihler</string>
+	<string name="dates.dates_empty_state_title">Tarih Yok</string>
+	<string name="dates.dates_empty_state_description">Şu anda planlanmış etkinlikleri olan aktif bir dersiniz bulunmamaktadır. Önemli tarihleri ve son teslim tarihlerini görmek için bir derse kaydolun.</string>
+	<string name="dates.dates_shift_due_date_card_title">Bazı Son Teslim Tarihlerini mi Kaçırdınız\?</string>
+	<string name="dates.dates_shift_due_date_card_description">Endişelenmeyin; süresi gelen görevleri herhangi bir ilerleme kaybı yaşamadan tamamlamak için önerilen programımızı değiştirin.</string>
+	<string name="dates.dates_shift_due_date">Son Tarihleri Değiştir</string>
+
 	<string name="discovery.discovery_Discovery">Keşfet</string>
 	<string name="discovery.discovery_discovery_new">Yeni içerikleri keşfet</string>
 	<string name="discovery.discovery_lets_find">Gelin sizin için yeni bir şeyler bulalım</string>

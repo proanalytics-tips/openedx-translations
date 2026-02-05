@@ -36,6 +36,7 @@
 	<string name="app.app_navigation_discovery">発見する</string>
 	<string name="app.app_navigation_learn">学ぶ</string>
 	<string name="app.app_navigation_profile">プロフィール</string>
+	<string name="app.app_navigation_dates">日付</string>
 	<string name="app.app_navigation_downloads">ダウンロード</string>
 
 	<string name="auth.auth_forgot_password">パスワードをお忘れですか</string>
@@ -123,15 +124,22 @@
 	<string name="profile.profile_use_relative_dates">相対日付を使用する</string>
 	<string name="profile.profile_show_relative_dates">「明日」や「昨日」のような相対日付を表示</string>
 	<string name="profile.profile_courses_to_sync_title">コースの同期を無効にすると、そのコースに関連するすべてのイベントが同期されたカレンダーから削除されます。</string>
+	<string name="profile.profile_automatically_remove_events">コースのイベントを、過去1か月間に表示していない場合は自動的に削除する</string>
 	<string name="profile.profile_inactive">非アクティブ</string>
 	<string name="profile.profile_hide_inactive_courses">非アクティブなコースを非表示</string>
 	<string name="profile.profile_disable_calendar_dialog_title">カレンダー同期を無効にする</string>
 	<string name="profile.profile_disable_calendar_dialog_description">カレンダー同期を無効にすると、カレンダー「%1$s」が削除されます。カレンダー同期はいつでも再度有効にできます。</string>
 	<string name="profile.profile_disable_syncing">同期を無効にする</string>
+	<string name="profile.profile_deleting_events">イベントを削除しています。しばらくお待ちください…</string>
 	<string name="profile.profile_no_courses">%1$s コースはありません</string>
 	<string name="profile.profile_no_sync_courses">現在、カレンダーに同期されているコースはありません。</string>
 	<string name="profile.profile_no_courses_with_current_filter">現在のフィルターに一致するコースはありません。</string>
 	<string name="profile.profile_show_full_dates">日付を「%1$s」のように完全に表示する</string>
+	<string name="profile.profile_select_google_calendar_title">Google カレンダーを選択</string>
+	<string name="profile.profile_change_google_calendar_title">Google カレンダーを変更する</string>
+	<string name="profile.profile_no_google_calendars">Google カレンダーが利用できません</string>
+	<string name="profile.profile_select_calendar">カレンダーを選択</string>
+	<string name="profile.profile_local_calendar_option">ローカルカレンダー</string>
 
 	<string name="core.core_error_invalid_grant">無効な資格情報</string>
 	<string name="core.core_error_no_connection">インターネット接続が遅い、または接続できない</string>
@@ -166,6 +174,7 @@
 	<string name="core.core_email_chooser_header">メールを送信する方法…</string>
 	<string name="core.core_email_client_not_present">メールクライアントがインストールされていません</string>
 	<string name="core.core_date_format_MMM_dd_yyyy">MMM dd, yyyy</string>
+	<string name="core.core_full_date_with_time">yyyy年MM月dd日 HH:mm</string>
 	<string name="core.core_app_upgrade_title">アプリの更新</string>
 	<string name="core.core_app_upgrade_dialog_description">最新バージョンへのアップデートをお勧めします。最新の機能と修正を受け取るために、今すぐアップグレードしてください。</string>
 	<string name="core.core_app_upgrade_box_description">新しいアップデートが利用可能です！最新の機能と修正を受け取るために、今すぐアップグレードしてください。</string>
@@ -207,6 +216,7 @@
 	<string name="core.core_video_downloading_to_device">ビデオをダウンロードしています...</string>
 	<string name="core.core_video_downloaded_to_device">すべての動画がダウンロードされました</string>
 	<string name="core.core_video_remaining_to_download" formatted="false">残り %d、合計 %s</string>
+	<string name="core.core_video_downloaded_subtitle" formatted="false">ビデオ %d、合計 %s</string>
 	<string name="core.core_video_streaming_quality">ビデオストリーミングの品質</string>
 	<string name="core.core_video_download_quality">ビデオのダウンロード品質</string>
 	<string name="core.core_manage_account">アカウント管理</string>
@@ -355,10 +365,12 @@
 	<string name="course.course_next_video">次のビデオ</string>
 	<string name="course.course_view_all_videos">すべてのビデオを表示</string>
 	<string name="course.course_video_time_remaining">%1$s 残り</string>
+	<string name="course.course_videos_completed">ビデオ\n完了</string>
 	<!-- Assignments UI -->
 	<string name="course.course_assignments_completed">課題\n完了</string>
 	<string name="course.course_view_all_assignments">すべての課題を表示</string>
 	<string name="course.course_next_assignment">次の課題</string>
+	<string name="course.course_due_today">今日の締切: %1$s</string>
 	<string name="course.course_days_past_due">%1$d日経過: %2$s</string>
 	<string name="course.course_due_in_days">%1$d日後に締切: %2$s</string>
 	<string name="course.course_section">セクション: %1$s</string>
@@ -366,6 +378,17 @@
 	<string name="course.course_grades_title">成績</string>
 	<string name="course.course_grades_description">これは、このコースを合格するために必要な成績に対するあなたの加重成績を表しています。</string>
 	<string name="course.course_view_progress">進捗を見る</string>
+	<!-- Caught Up Messages -->
+	<string name="course.course_videos_caught_up">動画はすべて見終わりました！</string>
+	<string name="course.course_assignments_caught_up">すべての課題が完了しました！</string>
+
+	<string name="dates.dates_title">日付</string>
+	<string name="dates.dates_empty_state_title">日付なし</string>
+	<string name="dates.dates_empty_state_description">現在、イベントが予定されているアクティブなコースはありません。重要な日付と締め切りを表示するには、コースに登録してください。</string>
+	<string name="dates.dates_shift_due_date_card_title">締切を逃してしまいましたか？</string>
+	<string name="dates.dates_shift_due_date_card_description">ご安心ください。進捗を失うことなく、期日を過ぎた課題を完了するために、提案されたスケジュールを調整してください。</string>
+	<string name="dates.dates_shift_due_date">締切日を変更</string>
+
 	<string name="discovery.discovery_Discovery">発見する</string>
 	<string name="discovery.discovery_discovery_new">新しいものを発見する</string>
 	<string name="discovery.discovery_lets_find">新しいものを見つけましょう</string>

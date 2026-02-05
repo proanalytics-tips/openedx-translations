@@ -65,6 +65,7 @@ jobs:
               'frontend-app-publisher',
               'frontend-app-account',
               'frontend-app-authn',
+              'frontend-app-catalog',
               'frontend-app-communications',
               'frontend-app-course-authoring',
               'frontend-app-discussions',
@@ -163,7 +164,7 @@ jobs:
       id: date
       run: echo $BRANCH
     - name: clone openedx/openedx-translations
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
 
     # creates the branch where all the translations will be added to
     - name: make and push a new branch
@@ -186,7 +187,7 @@ jobs:
     steps:
       # Clones the openedx-translations repo
       - name: clone openedx/openedx-translations
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: ${{ needs.setup-branch.outputs.branch }}
 
@@ -196,7 +197,7 @@ jobs:
 
       # Clones the  repository
       - name: clone ${{ github.repository_owner }}/${{ matrix.repo }}
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: ${{ github.repository_owner }}/${{ matrix.repo }}
           ref: ${{ github.event.inputs.ref }}
@@ -216,7 +217,7 @@ jobs:
         uses: actions/setup-python@v5
         id: setup_python
         with:
-          python-version: '3.11'
+          python-version: '3.12'
           cache: pip
           # The `edx-platf*rm` wildcard will be expanded to `edx-platform` if its requirement file exists,
           # otherwise it will be omitted
@@ -336,13 +337,13 @@ jobs:
     steps:
       # Clones the openedx-translations repo
       - name: clone openedx/openedx-translations
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: ${{ needs.setup-branch.outputs.branch }}
 
       # Clones the  repository
       - name: clone ${{ github.repository_owner }}/${{ matrix.repo }}
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: ${{ github.repository_owner }}/${{ matrix.repo }}
           ref: ${{ github.event.inputs.ref }}
@@ -350,7 +351,7 @@ jobs:
 
       # Sets up node/npm
       - name: setup node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 16
 
@@ -403,13 +404,13 @@ jobs:
     steps:
       # Clones the openedx-translations repo
       - name: clone openedx/openedx-translations
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: ${{ needs.setup-branch.outputs.branch }}
 
       # Clones the  repository
       - name: clone ${{ github.repository_owner }}/${{ matrix.repository_config.repo }}
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: ${{ github.repository_owner }}/${{ matrix.repository_config.repo }}
           ref: ${{ github.event.inputs.ref || matrix.repository_config.ref }}
@@ -419,7 +420,7 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       # Installs Python requirements from translations.txt
       - name: install requirements
@@ -474,7 +475,7 @@ jobs:
     steps:
       # Clones the openedx-translations repo on the automated/extract-translation-source-files-# branch
       - name: clone openedx/openedx-translations
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           ref: ${{ needs.setup-branch.outputs.branch }}
           fetch-depth: 0

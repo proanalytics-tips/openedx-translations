@@ -29,7 +29,7 @@ jobs:
       # Clones the openedx-translations repo
       - name: clone openedx/openedx-translations
         if: steps.filter.outputs.changedtranslations == 'true'
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Install msgfmt from gettext for po-file validation
         if: steps.filter.outputs.changedtranslations == 'true' && matrix.file-type == 'po'
@@ -41,7 +41,7 @@ jobs:
         uses: actions/setup-python@v5
         id: setup_python
         with:
-          python-version: '3.11'
+          python-version: '3.12'
           cache: pip
           cache-dependency-path: |
             requirements/translations.txt
@@ -54,7 +54,7 @@ jobs:
 
       - name: Setup node
         if: steps.filter.outputs.changedtranslations == 'true' && matrix.file-type == 'json'
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version-file: '.nvmrc'
 
