@@ -385,7 +385,7 @@
 "Core.ERROR.INTERNET.NO_INTERNET_TITLE" = "Немає підключення до інтернету";
 "Core.ERROR.INTERNET.NO_INTERNET_DESCRIPTION" = "Щоб переглянути ці матеріали, підключись до інтернету.";
 "Core.COURSEWARE.COURSE_CONTENT" = "Зміст курсу";
-"Core.COURSEWARE.COURSE_CONTENT_NOT_AVAILABLE" = ""Цей компонент ще недоступний на мобільних пристроях.";
+"Core.COURSEWARE.COURSE_CONTENT_NOT_AVAILABLE" = "Цей компонент ще недоступний на мобільних пристроях.";
 "Core.COURSEWARE.COURSE_UNITS" = "Уроки";
 "Core.COURSEWARE.NEXT" = "Далі";
 "Core.COURSEWARE.PREVIOUS" = "Назад";
