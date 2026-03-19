@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 	<string name="dashboard.dashboard_courses">Курси</string>
-	<string name="dashboard.dashboard_you_are_not_enrolled">Ви ще не записані на жодному курсі.</string>
+	<string name="dashboard.dashboard_you_are_not_enrolled">У тебе ще немає активних курсів.</string>
 	<string name="dashboard.dashboard_learn">Дашборд</string>
 	<string name="dashboard.dashboard_programs">Програми</string>
 	<string name="dashboard.dashboard_start_course">Розпочати курс</string>
 	<string name="dashboard.dashboard_resume_course">Продовжити курс</string>
-	<string name="dashboard.dashboard_view_all_with_count">Переглянути всі курси ( %1$d )</string>
+	<string name="dashboard.dashboard_view_all_with_count">Переглянути всі курси (%1$d)</string>
 	<string name="dashboard.dashboard_view_all">Переглянути всі</string>
 	<string name="dashboard.dashboard_course_filter_all">Усі</string>
-	<string name="dashboard.dashboard_course_filter_completed">пройдено</string>
+	<string name="dashboard.dashboard_course_filter_completed">Завершені</string>
 	<string name="dashboard.dashboard_course_filter_expired">Завершені (архів)</string>
 	<string name="dashboard.dashboard_all_courses">Усі курси</string>
 	<string name="dashboard.dashboard_all_courses_empty_title">Немає курсів</string>
 	<string name="dashboard.dashboard_all_courses_empty_description">Зараз у тебе немає активних курсів. Бажаєш переглянути каталог\?</string>
-	<string name="dashboard.dashboard_find_a_course">Знайти Курс</string>
-	<string name="dashboard.dashboard_no_status_courses">Без %1$s курсів</string>
-	<string name="dashboard.dashboard_pull_to_refresh">Проведіть вниз, щоб оновити</string>
+	<string name="dashboard.dashboard_find_a_course">Знайти курс</string>
+	<string name="dashboard.dashboard_no_status_courses">Немає %1$s курсів</string>
+	<string name="dashboard.dashboard_pull_to_refresh">Потягни вниз, щоб оновити</string>
 	<plurals name="dashboard.dashboard_past_due_assignment">
-        <item quantity="one">%1$d Прострочене завдання</item>
-        <item quantity="few">%1$d Прострочені завдання</item>
-        <item quantity="many">%1$d Прострочені завдання</item>
-        <item quantity="other">%1$d Прострочені завдання</item>
+        <item quantity="one">%1$d протерміноване завдання</item>
+        <item quantity="few">%1$d протерміновані завдання</item>
+        <item quantity="many">%1$d протермінованих завдань</item>
+        <item quantity="other">%1$d протермінованих завдань</item>
     </plurals>
 
 	<string name="downloads.downloads">Завантаження</string>
@@ -31,8 +31,8 @@
 	<string name="downloads.downloads_empty_state_title">Немає курсів із матеріалами для завантаження</string>
 	<string name="downloads.downloads_empty_state_description">Зараз у тебе немає курсів із матеріалами для завантаження.</string>
 	<string name="downloads.downloaded_downloaded_size">%1$s завантажено</string>
-	<string name="downloads.downloaded_available_size">%1$s доступний</string>
-	<string name="downloads.downloads_accessibility_stop_downloading_course">Припинити завантаження курсу</string>
+	<string name="downloads.downloaded_available_size">%1$s доступно</string>
+	<string name="downloads.downloads_accessibility_stop_downloading_course">Скасувати завантаження курсу</string>
 	<string name="downloads.downloads_loading_course_structure">Завантаження структури курсу…</string>
 
 	<string name="app.app_navigation_learn">Дашборд</string>
@@ -42,25 +42,25 @@
 
 	<string name="auth.auth_forgot_password">Не пам\'ятаєш пароль\?</string>
 	<string name="auth.auth_email">Електронна пошта</string>
-	<string name="auth.auth_invalid_email">Неправильна e-mail адреса</string>
-	<string name="auth.auth_invalid_password">Пароль занадто короткий</string>
-	<string name="auth.auth_welcome_back">Ласкаво просимо! Будь ласка, авторизуйтесь, щоб отримати доступ до ваших курсів.</string>
+	<string name="auth.auth_invalid_email">Неправильна адреса електронної пошти</string>
+	<string name="auth.auth_invalid_password">Пароль надто короткий</string>
+	<string name="auth.auth_welcome_back">З поверненням! Авторизуйся, щоб продовжити.</string>
 	<string name="auth.auth_show_optional_fields">Показати необов\'язкові поля</string>
 	<string name="auth.auth_hide_optional_fields">Сховати необов\'язкові поля</string>
-	<string name="auth.auth_create_account">Створювати обліковий запис</string>
-	<string name="auth.auth_reset_password">Скинути пароль</string>
-	<string name="auth.auth_forgot_your_password">Відновіть пароль</string>
+	<string name="auth.auth_create_account">Створити акаунт</string>
+	<string name="auth.auth_reset_password">Відновити пароль</string>
+	<string name="auth.auth_forgot_your_password">Відновлення пароля</string>
 	<string name="auth.auth_please_enter_your_log_in">Введи свою електронну пошту, і ми надішлемо лист з інструкціями.</string>
 	<string name="auth.auth_check_your_email">Перевір електронну пошту</string>
-	<string name="auth.auth_restore_password_success">Ми надіслали інструкції для відновлення пароля на вашу електронну пошту %s</string>
-	<string name="auth.auth_error_empty_username_email">Будь ласка, введіть своє ім\'я користувача або e-mail адресу та повторіть спробу.</string>
-	<string name="auth.auth_error_empty_email">Введіть e-mail адресу та повторіть спробу.</string>
+	<string name="auth.auth_restore_password_success">Ми надіслали інструкції з відновлення пароля на твою електронну пошту %s</string>
+	<string name="auth.auth_error_empty_username_email">Введи електронну пошту або ім\'я користувача та спробуй ще раз.</string>
+	<string name="auth.auth_error_empty_email">Введи електронну пошту та спробуй ще раз.</string>
 	<string name="auth.auth_enter_password">Введи пароль</string>
-	<string name="auth.auth_error_empty_password">Будь ласка, введіть свій пароль і повторіть спробу.</string>
-	<string name="auth.auth_create_new_account">Створіть обліковий запис.</string>
-	<string name="auth.auth_agreement_signin_in">Увійшовши в це застосування, ви погоджуєтеся з %1$s і %2$s і підтверджуєте, що %3$s і кожен Учасник обробляють ваші персональні дані відповідно до %4$s.</string>
+	<string name="auth.auth_error_empty_password">Введи пароль та спробуй ще раз.</string>
+	<string name="auth.auth_create_new_account">Створити новий акаунт</string>
+	<string name="auth.auth_agreement_signin_in">Увійшовши в додаток, ти погоджуєшся з %1$s і %2$s, а також підтверджуєш, що %3$s та кожен Учасник обробляють твої персональні дані відповідно до %4$s.</string>
 	<string name="auth.auth_accessibility_show_password">Показати пароль</string>
-	<string name="auth.auth_accessibility_hide_password">Сховати пароль</string>
+	<string name="auth.auth_accessibility_hide_password">Приховати пароль</string>
 
 	<string name="profile.profile_full_profile">Повний профіль</string>
 	<string name="profile.profile_limited_profile">Обмежений профіль</string>
