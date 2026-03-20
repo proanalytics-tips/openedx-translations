@@ -198,40 +198,40 @@
 	<string name="core.core_share_feedback">Поділитися відгуком</string>
 	<string name="core.core_thank_you">Дякуємо!</string>
 	<string name="core.core_rate_us">Оцінити додаток</string>
-	<string name="core.core_thank_you_dialog_positive_description">Дякуємо, що поділилися своїм зворотнім зв\'язком з нами. Бажаєте залишити свій відгук про це застосування для інших користувачів в магазині додатків\?</string>
-	<string name="core.core_thank_you_dialog_negative_description">Ми отримали ваш зворотній зв\'язок і використовуватимемо його, щоб покращити ваш досвід навчання в майбутньому. Дякуємо, що поділилися!</string>
-	<string name="core.core_no_internet_connection">Немає підключення до internet</string>
+	<string name="core.core_thank_you_dialog_positive_description">Дякуємо за відгук! Хочеш поділитися своїми враженнями з іншими користувачами в магазині додатків\?</string>
+	<string name="core.core_thank_you_dialog_negative_description">Ми отримали твій відгук. Він допоможе нам зробити навчання ще кращим!</string>
+	<string name="core.core_no_internet_connection">Немає підключення до інтернету</string>
 	<string name="core.core_no_internet_connection_description">Щоб переглянути ці матеріали, підключись до інтернету.</string>
 	<string name="core.core_try_again">Спробуй ще раз</string>
 	<string name="core.core_something_went_wrong_description">Щось пішло не так.</string>
 	<string name="core.core_register">Зареєструватися</string>
 	<string name="core.core_sign_in">Увійти</string>
 	<!--    Accessibility-->
-	<string name="core.core_accessibility_user_profile_image">%1$s зображення профілю</string>
+	<string name="core.core_accessibility_user_profile_image">Фото профілю %1$s</string>
 	<string name="core.core_accessibility_header_image_for">Зображення заголовка для %1$s</string>
 	<string name="core.core_accessibility_settings">Налаштування</string>
 	<string name="core.core_accessibility_btn_back">Назад</string>
-	<string name="core.core_accessibility_expandable_arrow">Розгорнута стрілка</string>
+	<string name="core.core_accessibility_expandable_arrow">Стрілка розгортання</string>
 	<string name="core.core_video_download_to_device">Завантажити на пристрій</string>
-	<string name="core.core_video_downloading_to_device">Завантаження відео…</string>
-	<string name="core.core_video_downloaded_to_device">Усі відео завантажують</string>
-	<string name="core.core_video_remaining_to_download" formatted="false">Залишилося %d, %s Усього</string>
-	<string name="core.core_video_downloaded_subtitle" formatted="false">Відео %d, %s Всього</string>
+	<string name="core.core_video_downloading_to_device">Завантаження відео...</string>
+	<string name="core.core_video_downloaded_to_device">Усі відео завантажено</string>
+	<string name="core.core_video_remaining_to_download" formatted="false">Залишилося %d, усього %s</string>
+	<string name="core.core_video_downloaded_subtitle" formatted="false">Відео %d, усього %s</string>
 	<string name="core.core_video_streaming_quality">Якість потокового відео</string>
 	<string name="core.core_video_download_quality">Якість завантаження відео</string>
 	<string name="core.core_manage_account">Керувати акаунтом</string>
 	<!-- endregion -->
 	<string name="core.core_no_course_content">Вміст курсу зараз недоступний.</string>
-	<string name="core.core_no_videos">Відео для цього курсу недоступні.</string>
-	<string name="core.core_no_dates">Дати курсу на даний час недоступні.</string>
-	<string name="core.core_no_progress">Цей курс не містить іспитів або оцінюваних завдань.</string>
+	<string name="core.core_no_videos">Для цього курсу поки немає відео.</string>
+	<string name="core.core_no_dates">Дати курсу поки недоступні.</string>
+	<string name="core.core_no_progress">У цьому курсі немає оцінюваних завдань.</string>
 	<string name="core.core_no_assignments">Для цього курсу поки немає завдань.</string>
-	<string name="core.core_no_discussion">Неможливо завантажити обговорення.\n Будь ласка, спробуйте пізніше.</string>
+	<string name="core.core_no_discussion">Не вдалося завантажити обговорення.\nСпробуй пізніше.</string>
 	<string name="core.core_no_handouts">Для цього курсу поки немає додаткових матеріалів.</string>
 	<string name="core.core_no_announcements">Для цього курсу поки немає оголошень.</string>
 	<string name="core.course_confirm_download">Підтвердити завантаження</string>
 	<string name="core.core_edit">Редагувати</string>
-	<string name="core.core_offline_progress_sync">Синхронізація Прогресу офлайн</string>
+	<string name="core.core_offline_progress_sync">Синхронізація прогресу офлайн</string>
 	<string name="core.core_close">Закрити</string>
 	<string name="core.core_calendar_sync_failed">Помилка синхронізації</string>
 	<string name="core.core_synced_to_calendar">Синхронізовано з календарем</string>
@@ -242,30 +242,30 @@
 	<string name="core.core_next">Далі</string>
 	<string name="core.core_previous">Назад</string>
 	<string name="core.core_download_queue_title">Завантаження</string>
-	<string name="core.core_download_untitled">(Без назви)</string>
+	<string name="core.core_download_untitled">Без назви</string>
 	<string name="core.core_download_big_files_confirmation_title">Завантажити</string>
 	<string name="core.core_download_big_files_confirmation_text">Розмір вибраних відео перевищує 1 ГБ. Завантажити їх\?</string>
-	<string name="core.core_delete_in_process_confirmation" formatted="false">Вимкнення перемикача зупинить завантаження і видалить всі завантажені відео для \"%s\"\?</string>
-	<string name="core.core_delete_confirmation" formatted="false">Ви дійсно хочете видалити всі відео для \"%s\"\?</string>
+	<string name="core.core_delete_in_process_confirmation" formatted="false">Якщо вимкнути, завантаження припиниться, а всі збережені відео для "%s" буде видалено.</string>
+	<string name="core.core_delete_confirmation" formatted="false">Справді хочеш видалити всі відео для "%s"?</string>
 	<string name="core.core_download_no_internet_dialog_description">Щоб завантажити матеріали, потрібен інтернет. Перевір підключення та спробуй ще раз.</string>
 	<string name="core.core_wifi_required">Потрібен Wi-Fi</string>
 	<string name="core.core_download_wifi_required_dialog_description">Щоб завантажити матеріали, потрібен Wi-Fi. Підключись до мережі та спробуй ще раз.</string>
 	<string name="core.core_download_failed">Помилка завантаження</string>
 	<string name="core.core_download_failed_dialog_description">Не вдалося завантажити матеріали. Спробуй пізніше або повідом нам про проблему.</string>
-	<string name="core.core_download_confirm_dialog_description">Завантаження цього %1$s контенту збереже доступні блоки в автономному режимі.</string>
+	<string name="core.core_download_confirm_dialog_description">Завантаження цих %1$s матеріалів дозволить переглядати їх офлайн.</string>
 	<string name="core.core_download_on_cellural">Завантажити через мобільну мережу\?</string>
-	<string name="core.core_download_on_cellural_dialog_description">Завантаження цього контенту використовуватиме %1$s стільникових даних.</string>
+	<string name="core.core_download_on_cellural_dialog_description">На завантаження матеріалів знадобиться %1$s мобільного трафіку.</string>
 	<string name="core.core_download_remove_offline_content">Видалити офлайн-матеріали\?</string>
-	<string name="core.core_download_remove_dialog_description">Видалення цього контенту звільнить місце на %1$s.</string>
+	<string name="core.core_download_remove_dialog_description">Видалення цих матеріалів звільнить %1$s місця.</string>
 	<string name="core.core_download">Завантажити</string>
 	<string name="core.core_remove">Видалити</string>
 	<string name="core.core_device_storage_full">Пам\'ять пристрою заповнена</string>
 	<string name="core.core_download_device_storage_full_dialog_description">На пристрої недостатньо місця для завантаження матеріалів. Звільни місце та спробуй ще раз.</string>
 	<string name="core.core_used_free_storage">%1$s використано, %2$s вільно</string>
-	<string name="core.core_0mb">0MB</string>
+	<string name="core.core_0mb">0 МБ</string>
 	<string name="core.core_available_to_download">Доступно для завантаження</string>
-	<string name="core.core_no_available_to_download_offline">Жоден з матеріалів цього курсу наразі не доступний для завантаження офлайн.</string>
-	<string name="core.core_download_all">Завантажте все</string>
+	<string name="core.core_no_available_to_download_offline">Для цього курсу поки немає матеріалів для завантаження.</string>
+	<string name="core.core_download_all">Завантажити все</string>
 	<string name="core.core_downloaded">Завантажено</string>
 	<string name="core.core_ready_to_download">Готово до завантаження</string>
 	<string name="core.core_you_can_download_course_content_offline">Завантажуй матеріали, щоб навчатися будь-де без підключення до інтернету чи мобільних даних.</string>
@@ -280,37 +280,37 @@
 	<string name="core.core_authorization">Авторизація</string>
 	<string name="core.core_authorization_request">Увійди в систему, щоб продовжити реєстрацію на курс.</string>
 
-	<string name="course.course_you_earned_certificate">Вітаємо, ви отримали цей сертифікат курсу \"%s\".</string>
+	<string name="course.course_you_earned_certificate">Вітаємо з отриманням сертифіката за курс "%s"!</string>
 	<string name="course.course_view_certificate">Переглянути сертифікат</string>
 	<string name="course.course_navigation_prev">Назад</string>
 	<string name="course.course_navigation_next">Далі</string>
 	<string name="course.course_navigation_finish">Завершити</string>
-	<string name="course.course_handouts">Роздатки</string>
+	<string name="course.course_handouts">Додаткові матеріали</string>
 	<string name="course.course_announcements">Оголошення</string>
 	<string name="course.course_find_important_info">Тут зібрана важлива інформація про курс</string>
 	<string name="course.course_latest_news">Будь у курсі останніх новин</string>
 	<string name="course.course_good_job">Чудова робота!</string>
-	<string name="course.course_back_to_outline">Повернутись до змісту</string>
+	<string name="course.course_back_to_outline">Повернутися до уроку</string>
 	<string name="course.course_next_section">Наступна лекція</string>
 	<string name="course.course_not_started">Цей курс ще не розпочався.</string>
-	<string name="course.course_can_download_only_with_wifi">Ви можете завантажувати контент тільки через Wi-Fi</string>
-	<string name="course.course_this_interactive_component">Цей інтерактивний компонент ще не доступний</string>
-	<string name="course.course_explore_other_parts_on_web">Досліджуйте інші частини цього курсу або перегляньте його в Інтернеті.</string>
+	<string name="course.course_can_download_only_with_wifi">Завантажувати матеріали можна лише через Wi-Fi</string>
+	<string name="course.course_this_interactive_component">Цей компонент ще недоступний на мобільних пристроях.</string>
+	<string name="course.course_explore_other_parts_on_web">Переглянь інші уроки курсу або відкрий цей компонент у браузері.</string>
 	<string name="course.course_open_in_browser">Відкрити в браузері</string>
 	<string name="course.course_subtitles">Субтитри</string>
-	<string name="course.course_to_proceed">Щоб перейти до \"%s\", натисніть \"Наступний Розділ\".</string>
-	<string name="course.course_gated_content_label">Деякий контент у цій частині курсу заблоковано лише для оновлених користувачів.</string>
-	<string name="course.course_change_quality_when_downloading">Ви не можете змінювати якість завантажуваного відео, коли завантажуються всі відео</string>
-	<string name="course.course_dates_shifted_message">Дати зміщені</string>
+	<string name="course.course_to_proceed">Щоб перейти до \"%s\", натисни \"Наступна лекція\".</string>
+	<string name="course.course_gated_content_label">Деякі матеріали в цій частині курсу доступні лише після отримання повного доступу.</string>
+	<string name="course.course_change_quality_when_downloading">Якість відео не можна змінити під час завантаження.</string>
+	<string name="course.course_dates_shifted_message">Дедлайни перенесено</string>
 	<string name="course.course_progress_completion_title">Завершення курсу</string>
 	<string name="course.course_progress_completion_description">Пройдена частина курсу — це весь опрацьований тобою контент: відео, тексти, уроки та завдання. Деякі розділи ще можуть бути в процесі публікації, тому слідкуй за оновленнями.</string>
 	<string name="course.course_progress_overall_title">Прогрес</string>
 	<string name="course.course_progress_overall_description">Це твоя зважена оцінка порівняно з тією, що потрібна для успішного завершення курсу.</string>
 	<string name="course.course_progress_current_overall">Твій поточний результат:</string>
-	<string name="course.course_progress_required_grade_percent">Для проходження цього курсу необхідно мати зважену оцінку %1$s%%.</string>
+	<string name="course.course_progress_required_grade_percent">Щоб пройти курс та отримати сертифікат, потрібно набрати %1$s%%.</string>
 	<string name="course.course_progress_grade_details">Деталі оцінювання</string>
 	<string name="course.course_progress_assignment_type">Тип завдання</string>
-	<string name="course.course_progress_current_max">Поточний / Макс %</string>
+	<string name="course.course_progress_current_max">Поточний / Макс. %%</string>
 	<string name="course.course_container_nav_home">Головна</string>
 	<string name="course.course_container_nav_content">Зміст</string>
 	<string name="course.course_container_nav_discussions">Обговорення</string>
