@@ -318,23 +318,23 @@
 	<string name="course.course_container_nav_dates">Дати</string>
 	<string name="course.course_container_nav_downloads">Завантаження</string>
 	<string name="course.course_container_nav_progress">Прогрес</string>
-	<string name="course.course_container_content_tab_all">Всі</string>
+	<string name="course.course_container_content_tab_all">Усі</string>
 	<string name="course.course_container_content_tab_video">Відео</string>
 	<string name="course.course_container_content_tab_assignment">Завдання</string>
 	<!-- Course Completion UI -->
 	<string name="course.course_completion_title">Завершення курсу</string>
 	<string name="course.course_completion_progress_label">Прогрес</string>
-	<string name="course.course_completion_progress_description">Ви завершили %1$s%% контенту курсу</string>
+	<string name="course.course_completion_progress_description">Завершено %1$s%% курсу</string>
 	<string name="course.course_completion_completed">пройдено</string>
-	<string name="course.course_completion_next_sequence">Наступна послідовність</string>
-	<string name="course.course_completion_view_all_content">Переглянути весь контент</string>
+	<string name="course.course_completion_next_sequence">Наступна лекція</string>
+	<string name="course.course_completion_view_all_content">Переглянути всі матеріали</string>
 	<!-- Accessibility -->
 	<string name="course.course_accessibility_video_player">Відеоплеєр</string>
 	<string name="course.course_accessibility_remove_course_section">Видалити розділ курсу</string>
 	<string name="course.course_accessibility_download_course_section">Завантажити розділ курсу</string>
-	<string name="course.course_accessibility_stop_downloading_course_section">Зупини завантаження розділу курсу</string>
-	<string name="course.course_accessibility_section_completed">Розділ завершив</string>
-	<string name="course.course_accessibility_section_uncompleted">Розділ не завершений</string>
+	<string name="course.course_accessibility_stop_downloading_course_section">Скасувати завантаження лекції</string>
+	<string name="course.course_accessibility_section_completed">Лекцію пройдено</string>
+	<string name="course.course_accessibility_section_uncompleted">Лекцію не пройдено</string>
 	<string name="course.course_accessibility_video_watched">Переглянуто відео</string>
 	<string name="course.course_accessibility_assignment_completed">Завдання завершене</string>
 	<string name="course.course_accessibility_assignment_due_date_past">Кінцева дата здачі завдання минула</string>
