@@ -336,25 +336,25 @@
 	<string name="course.course_accessibility_section_completed">Лекцію пройдено</string>
 	<string name="course.course_accessibility_section_uncompleted">Лекцію не пройдено</string>
 	<string name="course.course_accessibility_video_watched">Переглянуто відео</string>
-	<string name="course.course_accessibility_assignment_completed">Завдання завершене</string>
-	<string name="course.course_accessibility_assignment_due_date_past">Кінцева дата здачі завдання минула</string>
+	<string name="course.course_accessibility_assignment_completed">Завдання виконано</string>
+	<string name="course.course_accessibility_assignment_due_date_past">Дедлайн завдання минув</string>
 	<string name="course.course_label_back">Назад</string>
-	<string name="course.course_error_expired_not_upgradeable_title" formatted="false">Ваш безкоштовний аудіт доступ до цього курсу закінчився %s.</string>
-	<string name="course.course_error_not_started_title">Цей курс розпочнеться на %s. Приходьте тоді, щоб почати вчитися!</string>
-	<string name="course.course_an_error_occurred">Виникла помилка під час завантаження вашого курсу</string>
+	<string name="course.course_error_expired_not_upgradeable_title" formatted="false">Твій доступ вільного слухача до цього курсу завершився %s.</string>
+	<string name="course.course_error_not_started_title">Цей курс розпочнеться %s. Повертайся тоді, щоб почати навчання!</string>
+	<string name="course.course_an_error_occurred">Виникла помилка під час завантаження курсу</string>
 	<string name="course.course_continue">Продовжити</string>
 	<string name="course.course_view_completed">Показати завершені</string>
 	<string name="course.course_hide_completed">Сховати завершені</string>
 	<string name="course.course_completed">пройдено</string>
-	<string name="course.course_progress_earned_possible_assignment_problems">%1$s / %2$s Завершено</string>
+	<string name="course.course_progress_earned_possible_assignment_problems">%1$s / %2$s завершено</string>
 	<string name="course.course_progress_of_grade">з оцінки</string>
 	<string name="course.course_progress_current_and_max_weighted_graded_percent">%1$s / %2$s%%</string>
 	<string name="course.course_progress_no_assignments">У цьому курсі немає оцінюваних завдань.</string>
-	<string name="course.course_video_watched">%1$s/%2$s Переглянуто</string>
-	<string name="course.course_completed_of">%1$s / %2$s Завершений</string>
-	<string name="course.course_complete_points">Завершено - %1$s бали</string>
-	<string name="course.course_past_due">Прострочено - %1$s бали</string>
-	<string name="course.course_in_progress">- %1$s бали</string>
+	<string name="course.course_video_watched">%1$s/%2$s переглянуто</string>
+	<string name="course.course_completed_of">%1$s / %2$s завершено</string>
+	<string name="course.course_complete_points">Виконано - %1$s балів</string>
+	<string name="course.course_past_due">Протерміновано - %1$s балів</string>
+	<string name="course.course_in_progress">- %1$s балів</string>
 	<string name="course.course_of_grade">%1$s %% від оцінки</string>
 	<string name="course.course_review_grading_policy">Переглянути систему оцінювання</string>
 	<string name="course.course_return_to_course_home">Повернутися на головну</string>
@@ -362,20 +362,20 @@
 	<string name="course.course_continue_watching">Продовжити перегляд</string>
 	<string name="course.course_next_video">Наступне відео</string>
 	<string name="course.course_view_all_videos">Переглянути всі відео</string>
-	<string name="course.course_video_time_remaining">%1$s залишилося</string>
+	<string name="course.course_video_time_remaining">Залишилося %1$s</string>
 	<string name="course.course_videos_completed">Відео\nпереглянуто</string>
 	<!-- Assignments UI -->
 	<string name="course.course_assignments_completed">Завдання\nвиконано</string>
-	<string name="course.course_view_all_assignments">Переглянути всі Завдання</string>
+	<string name="course.course_view_all_assignments">Переглянути всі завдання</string>
 	<string name="course.course_next_assignment">Наступне завдання</string>
-	<string name="course.course_due_today">Сьогодні до: %1$s</string>
-	<string name="course.course_days_past_due">%1$d днів прострочено: %2$s</string>
-	<string name="course.course_due_in_days">Термін виконання в %1$d днів: %2$s</string>
-	<string name="course.course_section">Розділ: %1$s</string>
+	<string name="course.course_due_today">Дедлайн сьогодні: %1$s</string>
+	<string name="course.course_days_past_due">%1$d днів протерміновано: %2$s</string>
+	<string name="course.course_due_in_days">Дедлайн через %1$d днів: %2$s</string>
+	<string name="course.course_section">Лекція: %1$s</string>
 	<!-- Grades UI -->
 	<string name="course.course_grades_title">Оцінки</string>
 	<string name="course.course_grades_description">Це твоя зважена оцінка порівняно з тією, що потрібна для успішного завершення курсу.</string>
-	<string name="course.course_view_progress">Переглянути Прогрес</string>
+	<string name="course.course_view_progress">Переглянути прогрес</string>
 	<!-- Caught Up Messages -->
 	<string name="course.course_videos_caught_up">Усі відео переглянуто!</string>
 	<string name="course.course_assignments_caught_up">Усі завдання виконано!</string>
@@ -387,21 +387,21 @@
 	<string name="dates.dates_shift_due_date_card_description">Не хвилюйся — ти можеш змінити запропонований розклад, щоб виконати завдання без втрати прогресу.</string>
 	<string name="dates.dates_shift_due_date">Змінити дедлайни</string>
 
-	<string name="discovery.discovery_lets_find">Давайте знайдемо щось нове для вас</string>
+	<string name="discovery.discovery_lets_find">Знайдемо для тебе нові курси</string>
 	<string name="discovery.discovery_search_results">Результати пошуку</string>
-	<string name="discovery.discovery_start_typing_to_find">Почніть вводити, щоб знайти курс</string>
-	<string name="discovery.discovery_course_details">Деталі Курсу</string>
-	<string name="discovery.discovery_enroll_now">Запишіться зараз</string>
+	<string name="discovery.discovery_start_typing_to_find">Почни вводити текст, щоб знайти курс</string>
+	<string name="discovery.discovery_course_details">Деталі курсу</string>
+	<string name="discovery.discovery_enroll_now">Зареєструватися</string>
 	<string name="discovery.discovery_view_course">Переглянути курс</string>
-	<string name="discovery.discovery_you_cant_enroll">Ви не можете записатися на цей курс, оскільки дата запису закінчилася.</string>
+	<string name="discovery.discovery_you_cant_enroll">Реєстрацію на цей курс уже закрито.</string>
 	<string name="discovery.discovery_no_internet_label">Щоб записатися на курс, перевір підключення до інтернету.</string>
-	<string name="discovery.discovery_enrolled_successfully">Ви успішно записалися на цей курс.</string>
-	<string name="discovery.discovery_you_are_already_enrolled">Ви вже записані на цей курс.</string>
+	<string name="discovery.discovery_enrolled_successfully">Реєстрація на курс успішна.</string>
+	<string name="discovery.discovery_you_are_already_enrolled">Ти вже зареєструвався на цей курс.</string>
 	<plurals name="discovery.discovery_found_courses">
-        <item quantity="one">Знайдено %s курс за вашим запитом</item>
-        <item quantity="few">Знайдено %s курсів за вашим запитом</item>
-        <item quantity="many">Знайдено %s курсів за вашим запитом</item>
-        <item quantity="other">Знайдено %s курсів за вашим запитом</item>
+        <item quantity="one">Знайдено %s курс</item>
+        <item quantity="few">Знайдено %s курси</item>
+        <item quantity="many">Знайдено %s курсів</item>
+        <item quantity="other">Знайдено %s курсів</item>
     </plurals>
 	<!-- Accessibility -->
 	<string name="discovery.discovery_accessibility_play_video">Переглянути відео</string>
@@ -409,72 +409,72 @@
 	<string name="whatsnew.whats_new_title">Що нового</string>
 	<string name="whatsnew.whats_new_navigation_previous">Назад</string>
 	<string name="whatsnew.whats_new_navigation_next">Далі</string>
-	<string name="whatsnew.whats_new_navigation_done">Готово</string>
+	<string name="whatsnew.whats_new_navigation_done">Завершити</string>
 
-	<string name="discussion.discussion_all_posts">Всі публікації</string>
+	<string name="discussion.discussion_all_posts">Усі дописи</string>
 	<string name="discussion.discussion_unread">Непрочитані</string>
 	<string name="discussion.discussion_unanswered">Без відповіді</string>
-	<string name="discussion.discussion_posts_following">Публікації, за якими стежу</string>
+	<string name="discussion.discussion_posts_following">Відстежувані дописи</string>
 	<string name="discussion.discussion_recent_activity">Остання активність</string>
-	<string name="discussion.discussion_most_activity">Найбільша активність</string>
+	<string name="discussion.discussion_most_activity">Найбільш обговорювані</string>
 	<string name="discussion.discussion_most_votes">Найбільше голосів</string>
-	<string name="discussion.discussion_create_post">Створювати обговорення</string>
-	<string name="discussion.discussion_create_question">Створювати запитання</string>
+	<string name="discussion.discussion_create_post">Створити обговорення</string>
+	<string name="discussion.discussion_create_question">Поставити запитання</string>
 	<string name="discussion.discussion_add_response">Додати відповідь</string>
-	<string name="discussion.discussion_last_post">Останнє повідомлення: %1$s</string>
+	<string name="discussion.discussion_last_post">Останній допис: %1$s</string>
 	<string name="discussion.discussion_follow">Стежити</string>
 	<string name="discussion.discussion_report">Поскаржитися</string>
-	<string name="discussion.discussion_unreport">Відмінити скаргу</string>
+	<string name="discussion.discussion_unreport">Скасувати скаргу</string>
 	<string name="discussion.discussion_add_comment">Додати коментар</string>
-	<string name="discussion.discussion_comments_title">Коментар</string>
-	<string name="discussion.discussion_comment_added">Коментар успішно додано</string>
+	<string name="discussion.discussion_comments_title">Коментарі</string>
+	<string name="discussion.discussion_comment_added">Коментар додано</string>
 	<string name="discussion.discussion_discussion">Обговорення</string>
-	<string name="discussion.discussion_question">Питання</string>
+	<string name="discussion.discussion_question">Запитання</string>
 	<string name="discussion.discussion_title">Заголовок</string>
-	<string name="discussion.discussion_follow_discussion">Слідкувати за цим обговоренням</string>
-	<string name="discussion.discussion_follow_question">Слідкувати за цим питанням</string>
-	<string name="discussion.discussion_search_all_posts">Шукати всі повідомлення</string>
-	<string name="discussion.discussion_main_categories">Головні категорії</string>
-	<string name="discussion.discussion_select_post_type">Виберіть тип публікації</string>
+	<string name="discussion.discussion_follow_discussion">Стежити за обговоренням</string>
+	<string name="discussion.discussion_follow_question">Стежити за запитанням</string>
+	<string name="discussion.discussion_search_all_posts">Пошук по всіх дописах</string>
+	<string name="discussion.discussion_main_categories">Основні категорії</string>
+	<string name="discussion.discussion_select_post_type">Вибрати тип допису</string>
 	<string name="discussion.discussion_topic">Тема</string>
 	<string name="discussion.discussion_search_results">Результати пошуку</string>
-	<string name="discussion.discussion_start_typing_to_find">Почніть вводити, щоб знайти тему</string>
+	<string name="discussion.discussion_start_typing_to_find">Почни вводити текст, щоб знайти теми</string>
 	<string name="discussion.discussion_no_yet">Ще немає обговорень</string>
-	<string name="discussion.discussion_click_button_create_discussion">Натисніть кнопку нижче, щоб створити своє перше обговорення.</string>
+	<string name="discussion.discussion_click_button_create_discussion">Натисни кнопку нижче, щоб створити своє перше обговорення.</string>
 	<string name="discussion.discussion_unnamed_subcategory">Підкатегорія без назви</string>
 	<plurals name="discussion.discussion_votes">
         <item quantity="one">%1$d голос</item>
-        <item quantity="few">%1$d голосів</item>
+        <item quantity="few">%1$d голоси</item>
         <item quantity="many">%1$d голосів</item>
         <item quantity="other">%1$d голосів</item>
     </plurals>
 	<plurals name="discussion.discussion_comments">
-        <item quantity="one">%1$d Коментар</item>
-        <item quantity="few">%1$d коментарів</item>
+        <item quantity="one">%1$d коментар</item>
+        <item quantity="few">%1$d коментарі</item>
         <item quantity="many">%1$d коментарів</item>
         <item quantity="other">%1$d коментарів</item>
     </plurals>
 	<plurals name="discussion.discussion_missed_posts">
-        <item quantity="one">%1$d пропущених дописів</item>
-        <item quantity="few">%1$d пропущених дописів</item>
+        <item quantity="one">%1$d пропущений допис</item>
+        <item quantity="few">%1$d пропущені дописи</item>
         <item quantity="many">%1$d пропущених дописів</item>
         <item quantity="other">%1$d пропущених дописів</item>
     </plurals>
 	<plurals name="discussion.discussion_responses">
         <item quantity="one">%1$d відповідь</item>
-        <item quantity="few">%1$d відповідей</item>
+        <item quantity="few">%1$d відповіді</item>
         <item quantity="many">%1$d відповідей</item>
         <item quantity="other">%1$d відповідей</item>
     </plurals>
 	<plurals name="discussion.discussion_responses_capitalized">
         <item quantity="one">%1$d Відповідь</item>
-        <item quantity="few">%1$d Відповідей</item>
+        <item quantity="few">%1$d Відповіді</item>
         <item quantity="many">%1$d Відповідей</item>
         <item quantity="other">%1$d Відповідей</item>
     </plurals>
 	<plurals name="discussion.discussion_found_threads">
         <item quantity="one">Знайдено %s запис</item>
-        <item quantity="few">Знайдено %s записів</item>
+        <item quantity="few">Знайдено %s записи</item>
         <item quantity="many">Знайдено %s записів</item>
         <item quantity="other">Знайдено %s записів</item>
     </plurals>
