@@ -673,7 +673,9 @@
 "Authorization.STARTUP.SEARCH_PLACEHOLDER" = "Пошук серед усіх курсів";
 "Authorization.STARTUP.EXPLORE_ALL_COURSES" = "Переглянути всі курси";
 "Authorization.STARTUP.TITLE" = "Початок";
-"ACCOUNT_ACTIVATION.TITLE" = "Активуйте свій обліковий запис";
-"ACCOUNT_ACTIVATION.MESSAGE" = "Будь ласка, перевірте свою електронну пошту та активуйте обліковий запис.";
-"ACCOUNT_ACTIVATION.REFRESH" = "Оновити";
-"ACCOUNT_ACTIVATION.SUCCESS" = "Обліковий запис успішно активовано.";
+"Core.ACCOUNT_ACTIVATION.TITLE" = "Активуйте свій обліковий запис";
+"Core.ACCOUNT_ACTIVATION.MESSAGE" = "Будь ласка, перевірте свою електронну пошту та активуйте обліковий запис.";
+"Core.ACCOUNT_ACTIVATION.REFRESH" = "Оновити";
+"Core.ACCOUNT_ACTIVATION.SUCCESS" = "Обліковий запис успішно активовано.";
+"Core.PAYMENT.PROCESSING" = "Обробляємо твою оплату...";
+"Core.PAYMENT.SUCCESS" = "Оплата успішна! Тебе зараховано на курс.";
