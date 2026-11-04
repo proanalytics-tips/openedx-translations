@@ -11395,3 +11395,67 @@ msgstr[3] "Завантажити наступні {num_items} результа�
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
 msgid "Sorry, no results were found."
 msgstr "На жаль, жодного результату не знайдено."
+
+#: common/static/common/js/discussion/views/response_comment_show_view.js:59
+#: common/static/common/templates/discussion/templates.underscore:553
+#: common/static/common/templates/discussion/templates.underscore:624
+msgid "anonymous"
+msgstr "анонімно"
+
+#: lms/static/js/views/fields.js:53
+#: lms/templates/learner_dashboard/program_card.underscore:26
+msgid "In Progress"
+msgstr "У процесі"
+
+#: cms/templates/js/certificate-details.underscore:11
+#: cms/templates/js/group-configuration-details.underscore:14
+#: cms/templates/js/partition-group-details.underscore:14
+msgid "ID"
+msgstr "ID"
+
+#: cms/templates/js/course-outline.underscore:513
+msgid "What's in my clipboard?"
+msgstr "Що в моєму буфері обміну?"
+
+#: cms/templates/js/course-video-transcript-preferences.underscore:3
+msgid "Transcript Turnaround"
+msgstr "Термін виготовлення транскрипту"
+
+#: cms/templates/js/self-paced-due-date-editor.underscore:5
+msgid "Due in:"
+msgstr "Термін виконання через:"
+
+#: cms/templates/js/timed-examination-preference-editor.underscore:38
+msgid "Proctored"
+msgstr "З прокторингом"
+
+#: cms/templates/js/video-transcripts.underscore:9
+msgid "No transcript uploaded."
+msgstr "Транскрипт не завантажено."
+
+#: common/static/common/templates/discussion/templates.underscore:337
+msgid "Following"
+msgstr "Відстежується"
+
+#: lms/templates/financial-assistance/financial_assessment_form.underscore:42
+msgid "Submit Application"
+msgstr "Надіслати заявку"
+
+#: lms/templates/verify_student/id_photo_step.underscore:3
+msgid "Take a Photo of Your ID"
+msgstr "Сфотографуйте своє посвідчення особи"
+
+#: lms/templates/verify_student/id_photo_step.underscore:50
+msgid ""
+"You may be able to complete the image capture procedure without assistance, "
+"but it may take a couple of submission attempts to get the camera "
+"positioning right.  Optimal camera positioning varies with each computer, "
+"but generally, the best position for a photo of an ID card is 8-12 inches "
+"(20-30 centimeters) from the camera, with the ID card centered relative to "
+"the camera. "
+msgstr ""
+"Можливо, вам вдасться виконати процедуру фотографування самостійно, але для "
+"правильного розташування камери може знадобитися кілька спроб. Оптимальне "
+"розташування камери залежить від комп'ютера, але загалом найкраще "
+"фотографувати посвідчення особи на відстані 20–30 сантиметрів (8–12 дюймів) "
+"від камери, розмістивши посвідчення по центру відносно камери. "
