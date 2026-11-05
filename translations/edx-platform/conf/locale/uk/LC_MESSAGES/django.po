@@ -12807,14 +12807,6 @@ msgstr ""
 msgid "Learn more about certificates"
 msgstr "Дізнайтеся більше про сертифікати"
 
-#: cms/templates/certificates.html:116
-#: cms/templates/group_configurations.html:127 cms/templates/settings.html:707
-#: cms/templates/settings_advanced.html:147
-#: cms/templates/settings_graders.html:50
-#: cms/templates/widgets/header.html:181 cms/templates/widgets/header.html:186
-msgid "Grading"
-msgstr "Оцінювання"
-
 #: cms/templates/certificates.html:117
 #: cms/templates/group_configurations.html:128
 #: cms/templates/manage_users.html:28 cms/templates/settings.html:708
@@ -14132,12 +14124,6 @@ msgstr "Керування контентними групами"
 msgid "{platform_name} {studio_name}: Task Status Update"
 msgstr "{platform_name} {studio_name}: Оновлення статусів задачі"
 
-#: cms/templates/maintenance/_announcement_edit.html:26
-#: lms/templates/problem.html:37 lms/templates/problem.html:38
-#: lms/templates/word_cloud.html:40
-msgid "Save"
-msgstr "Зберегти"
-
 #: cms/templates/widgets/footer.html:45 lms/templates/footer.html:50
 #: lms/templates/footer.html:127 themes/red-theme/lms/templates/footer.html:78
 msgid "Legal"
@@ -14542,12 +14528,6 @@ msgstr "Персонал"
 #: lms/templates/preview_menu.html:75
 msgid "Username or email:"
 msgstr "Ім'я користувача або електронна пошта:"
-
-#: lms/templates/problem.html:45
-#: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:33
-#: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:41
-msgid "Reset"
-msgstr "Зкинути"
 
 #: lms/templates/provider_login.html:38
 msgid "Log In"
@@ -15578,10 +15558,6 @@ msgstr "Додайте текст Політики Доброчесності с
 msgid "Put your Copyright Text here!"
 msgstr "Додайте текст Авторського Права сюди!"
 
-#: xmodule/capa/templates/codeinput.html:10
-msgid "Code Editor"
-msgstr "Редактор коду"
-
 
 #: payment emails common phrases - proanalytics-theme/lms/templates/course_payment/edx_ace/
 msgid "Hi there!"
@@ -15720,10 +15696,6 @@ msgstr "Мій обліковий запис"
 msgid "Best regards,"
 msgstr "З найкращими побажаннями,"
 
-
-#: reset password email
-msgid "Reset my password"
-msgstr "Змінити мій пароль"
 
 #: xmodule/capa/safe_exec/remote_exec.py:120
 msgid ""
